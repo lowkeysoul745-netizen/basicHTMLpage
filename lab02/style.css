@@ -1,0 +1,112 @@
+body {
+    margin : 0px ;
+    background-color: #FFD3AC;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #FFB5ab;
+    padding: 30px 10px;
+}
+header h1{
+    margin: 0;
+    letter-spacing: 3px;
+}
+header h3{
+    margin-top: 8px;
+    font-weight: normal;
+}
+nav {
+    background-color: #e39a7b;
+    padding: 12px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 12px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+article{
+    background-color: #ffffff   ;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 8px;
+    max-width: 10000px;
+    padding: 25px;
+}
+h2 {
+    color: #E39A7B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+article div div {
+    background-color: #DBB06B !important;
+    color: #1f331a;
+}
+
+footer {
+    background-color: #E39A7B;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+#facilities {
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.facilities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.facility-card {
+    background-color: #DBB06B; 
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.facility-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.facility-card h3 {
+    margin: 10px 0 5px;
+}
+
+.facility-card p {
+    font-size: 14px;
+}
+#hotel{
+    font-family: 'Courier New', Courier, monospace;
+}
+#navheaders{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home{
+    border: 100px;
+}
